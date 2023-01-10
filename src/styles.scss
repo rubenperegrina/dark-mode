@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    --text-color: #222525;
+    --bkg-color: #f8f5f2;
+    --btn-txt-color: #232323;
+    --btn-bg-color: #078080;
+  }
+  body.dark-theme {
+    --text-color: #a7a9be;
+    --bkg-color: #0f0e17;
+    --btn-txt-color: #fffffe;
+    --btn-bg-color: #ff8906;
+  }
+  
+  body {
+    background: var(--bkg-color);
+  }
+  
+  h1,
+  p {
+    color: var(--text-color);
+  }
+  button {
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--btn-txt-color);
+    background-color: var(--btn-bg-color);
+  }
